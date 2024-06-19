@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.hb.nfctest'
-    compileSdkPreview "VanillaIceCream"
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.hb.nfctest"
-        minSdkPreview "VanillaIceCream"
-        targetSdkPreview "VanillaIceCream"
+        targetSdk 35
+        minSdk 26
         versionCode 1
         versionName "1.0"
 
